@@ -53,7 +53,7 @@ This is needed as network operations need system time to be proper, eg. for inst
 	#include <linux/init.h>       /* Needed for the macros */  
 
 	MODULE_LICENSE("GPL");    
-	MODULE_AUTHOR("Suyash Singh Bitti");  
+	MODULE_AUTHOR("Venkat Rajneesh");  
 	MODULE_DESCRIPTION("Hello World Lodable Kernel Module");  
 
 	static int __init hello_start(void)  

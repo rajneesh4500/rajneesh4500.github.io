@@ -1,12 +1,12 @@
 ---
 title: Contact
 layout: default
-description: Get in contact with Suyash Singh Bitti by filling out this contact form. Feel free to contact me in case of any queries.
+description: Get in contact with Venkat Rajneesh by filling out this contact form. Feel free to contact me in case of any queries.
 order: 5
 ---
 <!-- Contact form -->
 <p class="lead">
-Get in contact with <a href="/about/" title="more about suyash singh bitti">Suyash Singh Bitti</a> using this form. Feel free to contact if you need help reagarding your projects or you want to know more about <a href="/projects/" title="project page of suyash singh bitti">the projects that I have done</a>, have suggestions on some of my <a href="/blog/" title="blog posts by suyash singh bitti">blog posts</a>. I am be happy to hear and help.
+Get in contact with <a href="/about/" title="more about Venkat Rajneesh">Venkat Rajneesh</a> using this form. Feel free to contact if you need help reagarding your projects or you want to know more about <a href="/projects/" title="project page of Venkat Rajneesh">the projects that I have done</a>, have suggestions on some of my <a href="/blog/" title="blog posts by Venkat Rajneesh">blog posts</a>. I am be happy to hear and help.
 </p>
 <form action="https://formspree.io/xeqajboo" method="POST">
   <div class="form-row">

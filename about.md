@@ -1,11 +1,11 @@
 ---
 title: About Me
-description: I am Suyash Singh Bitti, an Embedded Developer working at CDAC Pune. I work on Embedded Systems, Linux Kernel Development &  Device Drivers. Know more about me here.
+description: I am Venkat Rajneesh, an Embedded Developer working at CDAC Pune. I work on Embedded Systems, Linux Kernel Development &  Device Drivers. Know more about me here.
 layout: default
 order: 4
 ---
 
-Hello, I am <strong>Suyash Singh Bitti</strong>. I am an Embedded Software Developer currently employed
+Hello, I am <strong>Venkat Rajneesh</strong>. I am an Embedded Software Developer currently employed
 by the R&D division of C-DAC Pune.
 
 ## Work & Areas of Interest
@@ -26,7 +26,7 @@ Here is a list of my interest areas:
 Previously I was employed at <a href="https://fenopix.com/" title="Fenopix company behind CanvasJS Charts" rel="nofollow" target="_blank">Fenopix</a>, where I worked as a software test engineer and was involved with the product 
 <a href="https://canvasjs.com/" title="CanvasJS HTML5 Javascript charting library product page" target="_blank" rel="nofollow">CanvasJS</a>. It gave me an opportunity to connect with the web community, learn from them and help them out in developing web applications with CanvasJS.
 
-Here are the <a href="https://canvasjs.com/forums/users/suyash-singh/replies/" title="canvas forum threads by suyash singh bitti" target="_blank" rel="nofollow">forum queries I handled at CanvasJS</a> & <a href="https://canvasjs.com/blog/author/suyash-singh/" title="CanvasJS release posts by suyash singh bitti">Release Posts</a>.
+Here are the <a href="https://canvasjs.com/forums/users/suyash-singh/replies/" title="canvas forum threads by Venkat Rajneesh" target="_blank" rel="nofollow">forum queries I handled at CanvasJS</a> & <a href="https://canvasjs.com/blog/author/suyash-singh/" title="CanvasJS release posts by Venkat Rajneesh">Release Posts</a>.
 
 I’ve a <a href="https://www.cdac.in/index.aspx?id=DESD&courseid=22" title="course information of PG DESD" target="_blank">Post Graduate Diploma in Embedded Systems Design (PG-DESD)</a> from C-DAC, Pune. I secured A Grade, 83% and was the batch topper of February 2018 batch. You can know more about the course from the <a href="https://www.nqr.gov.in/qualification-title?nid=2995" title="About PG Diploma on Embedded Systems Design on National Skill Registers Page" target="_blank">Indian National Qualifications Register page</a>. I completed my graduation in Electronics and Communication from Lovely Professional University, Jalandhar Punjab.
 

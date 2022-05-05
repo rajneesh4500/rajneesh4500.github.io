@@ -1,6 +1,6 @@
 ---
 title: Projects
-description: Know more about projects done by Suyash Singh Bitti on Embedded Systems, Linux System Programming, Linux Kernel Development, PCB Design using KiCad, RTOS, CAN and more. Here are some of the projects.
+description: Know more about projects done by Venkat Rajneesh on Embedded Systems, Linux System Programming, Linux Kernel Development, PCB Design using KiCad, RTOS, CAN and more. Here are some of the projects.
 layout: default
 order: 3
 ---
@@ -27,7 +27,7 @@ the time of schematic design to sending gerbers to fab house.
 + Board checks after fabrication
 
 As of now the project is currently in hold. I would have to take out time to get
-it done soon. <a href="https://github.com/suyashsingh/stm32f070-board" title="hardware design files for STM32F070 board designed by Suyash Singh Bitti" target="_blank">Here is the link to the project page on github</a>.
+it done soon. <a href="https://github.com/suyashsingh/stm32f070-board" title="hardware design files for STM32F070 board designed by Venkat Rajneesh" target="_blank">Here is the link to the project page on github</a>.
 
 ## Realtime CAN Data Dashboard
 This was my major project for completion of PG Diploma in Embedded system Design
