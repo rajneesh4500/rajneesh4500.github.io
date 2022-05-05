@@ -1,4 +1,4 @@
-# Codebase for `suyashsingh.github.io`
+# Codebase for `Rajneeshsingh.github.io`
 + To omit a page from the navigation menu, don't define `order` variable in page frontmatter.
 
 ## Running the local version

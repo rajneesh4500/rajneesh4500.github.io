@@ -100,8 +100,8 @@ tells `tail` to show changes in the file at realtime. This way you won't have ke
 ## 7. Install & Configure GIT
 + This step is optional. 
 + `sudo apt-get install git`
-+ `git config --global user.name "Suyash"`
-+ `git config --global user.email "suyash@example.com"`
++ `git config --global user.name "Rajneesh"`
++ `git config --global user.email "Rajneesh@example.com"`
 + `git config --global core.editor nano`
 
 These steps should configure your Raspberry Pi for initial linux kernel development.

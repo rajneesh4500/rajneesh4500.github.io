@@ -27,7 +27,7 @@ the time of schematic design to sending gerbers to fab house.
 + Board checks after fabrication
 
 As of now the project is currently in hold. I would have to take out time to get
-it done soon. <a href="https://github.com/suyashsingh/stm32f070-board" title="hardware design files for STM32F070 board designed by Venkat Rajneesh" target="_blank">Here is the link to the project page on github</a>.
+it done soon. <a href="https://github.com/Rajneeshsingh/stm32f070-board" title="hardware design files for STM32F070 board designed by Venkat Rajneesh" target="_blank">Here is the link to the project page on github</a>.
 
 ## Realtime CAN Data Dashboard
 This was my major project for completion of PG Diploma in Embedded system Design
@@ -37,4 +37,4 @@ unit ran `FreeRTOS` for managing the tasks. `IPC mechanism: Event registers` was
 for synchronising producer(tasks that reads sensor) and consumer(task the sends 
 CAN messages) tasks in the system.
 
-You can find more about the project on <a href="https://www.linkedin.com/in/suyash-singh-bitti/" title="More information on Real Time CAN Dashboard project on my linkedin page" target="_blank">projects section of my linkedin page</a>.
+You can find more about the project on <a href="https://www.linkedin.com/in/Rajneesh-singh-bitti/" title="More information on Real Time CAN Dashboard project on my linkedin page" target="_blank">projects section of my linkedin page</a>.
