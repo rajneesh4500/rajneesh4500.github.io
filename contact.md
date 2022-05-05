@@ -8,7 +8,7 @@ order: 5
 <p class="lead">
 Get in contact with <a href="/about/" title="more about Venkat Rajneesh">Venkat Rajneesh</a> using this form. Feel free to contact if you need help reagarding your projects or you want to know more about <a href="/projects/" title="project page of Venkat Rajneesh">the projects that I have done</a>, have suggestions on some of my <a href="/blog/" title="blog posts by Venkat Rajneesh">blog posts</a>. I am be happy to hear and help.
 </p>
-<form action="https://formspree.io/xeqajboo" method="POST">
+<form action="https://formspree.io/f/mpzbogql" method="POST">
   <div class="form-row">
     <div class="form-group col-md-6">
       <label for="inputName">Name</label>
