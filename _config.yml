@@ -1,0 +1,40 @@
+name: Suyash Singh Bitti
+title: Suyash Singh Bitti
+author: Suyash Singh Bitti
+url: https://suyashsingh.github.io
+
+tagline: Suyash's blog on Embedded Systems, Linux Device drivers & C.
+description: I am Suyash Singh Bitti an Embedded Developer working at CDAC, Pune. I work on Linux Device Drivers, Systems / Kernel Programming & Embedded Systems.
+
+twitter:
+    username: cq_suyash
+    card: summary
+
+github: https://github.com/suyashsingh
+linkedin: https://www.linkedin.com/in/suyash-singh-bitti/
+theme:
+
+markdown: kramdown
+kramdown:
+ input: GFM
+ auto_ids: true
+ hard_wrap: false
+ syntax_highlighter: rouge
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+permalink: /:categories/:title/
+collections:
+  posts:
+    permalink: /blog/:title/
+
+compress_html:
+  clippings: all 
+  comments: all
+  endings: []
+  profile: false
+  blanklines: false
+  ignore:
+    envs: []

@@ -1,0 +1,153 @@
+---
+layout: compress
+---
+
+<!-- Template for Main blog page on which list of posts are displayed -->
+<!doctype html>
+<html lang="en">
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="shortcut icon" href="{{ "favicon.ico" | relative_url }}" type="image/x-icon">
+
+{% seo %}
+<!-- Google Analytics -->
+{% include google_analytics.html %}
+{% include gtm-head.html %}
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="{{ "/assets/css/bootstrap.min.css" | relative_url }}">
+<link rel="stylesheet" href="{{ "/assets/css/scroll-to-top.css" | relative_url }}">
+
+<style>
+  /* Sticky Footer Classes */
+  html,
+  body {
+    height: 100%;
+  }
+  
+  #page-content {
+    flex: 1 0 auto;
+  }
+
+  #sticky-footer {
+    flex-shrink: none;
+  }
+
+  /* Other customizations */
+  .blue-header-bg {
+    background-image: url("{{ "/assets/images/header-bg.jpg" | relative_url }}");
+  }
+
+  /* CSS for Navbar */
+  .navbar {
+    border-bottom:1px solid #FFF;
+  }
+
+  #navbar-toggle-cbox:checked ~ .collapse {
+    display:block;
+  }
+
+  #navbar-toggle-cbox {
+    display: none;
+  }
+
+  {% include svg-icons-css.html %}
+</style>
+
+</head>
+
+<body>
+  {% include gtm-body.html %}
+  {% include svg-icons.html %}
+  <!-- Dynamically generated navigation Bar -->
+  {% include navigation.html %}
+  <!-- ./Dynamically generated navigation Bar -->
+
+  <!-- Jumbotron -->
+  <div class="jumbotron text-center blue-header-bg" style="margin-top:30px;">
+    <span class="text-light" style="font-size: 3.4em;">Suyash Singh Bitti</span><br>
+    <span class="text-light">Suyash's Blog ~ Embedded bits & bytes!</span>
+  </div>
+  <!-- ./Jumbotron -->
+
+  <!-- Page Container -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 offset-md-2">
+        <!-- Page title  -->
+        <h1 class='text-primary'>{{ page.title }}</h1>
+        <p class="lead">
+          <!-- Ramblings about embedded, linux and related cousins from yours truly. <br>
+        Take it with a pinch of salt or a whole lump of it! -->
+        These series of blog posts can be thought of as ramblings on Embedded Systems, 
+        Linux Systems Programming, Linux Device Drivers, Microcontroller and other related cousins by yours truly.
+
+        The blog posts are pragmatic in nature. My <a href="/projects" title="projects by suyash singh bitti">projects</a> are
+        the main driving force behind these.I hope these blog posts are helpful to you as they where to <a href="/about/" title="know more about suyash singh bitti">me</a>.
+        If the case you have suggestions for improvement for posts in this blog please feel free to <a href="/contact/" 
+        title="contact form for getting in touch with suyash singh bitti">contact me</a>.
+        </p>
+
+        <h3 class="text-primary"><u>Posts</u></h3>
+        {% for post in site.posts %}
+        <div class="card border-light">
+            <div class="card-body">
+                <h4 class="card-title"><a href="{{ post.url }}" title="read the blog post {{ post.pretty_title }} by {{ site.author }}">{{ post.pretty_title}}</a></h4>
+                <p class="card-text">
+                  <span><svg class="svg-icon"><use xlink:href="#icon-clock"></use></svg></span> {{ post.readTime }} read  &nbsp;&nbsp;&nbsp;
+                  <span><svg class="svg-icon"><use xlink:href="#icon-calendar"></use></svg></span> {{ post.date | date: "%b %-d, %Y" }}  &nbsp;&nbsp;&nbsp;
+                    {% for tag in post.tag %}
+                      <a href="#tag-{{ tag }}" title="see more posts with the tag {{ tag }}" class="badge badge-light"><span><svg class="svg-icon"><use xlink:href="#icon-tag"></use></svg></span> {{ tag }}</a>
+                    {% endfor %}
+                </p>
+                <a href="{{ post.url }}" title="read more about the post {{ post.pretty_title }}" class="btn btn-outline-info">Read More <span><svg class="svg-icon icon-info"><use xlink:href="#icon-arrow-right"></use></svg></span></a>
+            </div>  
+        </div>
+        {% endfor %}
+        
+        <br>
+        <h2 class="text-primary"><u>Tags / Categories</u></h2>
+        {% for tag in site.tags %}
+            {% assign t = tag | first %}
+            {% assign posts = tag | last %}
+            <span class="badge badge-pill badge-primary">
+            {{t | downcase | replace:" ","-" }}
+            <span class="badge badge-light">{{ posts | size }}</span>
+            <span class="sr-only">number of posts</span>
+            </span>
+        {% endfor %}
+        <hr>
+
+        <h3 class="text-primary">Tagged Posts</h3>
+        {% for tag in site.tags %}
+        {% assign t = tag | first %}
+        {% assign posts = tag | last %}
+        {% assign tagname = t | downcase | replace:" ","-" %}
+        <span class="badge badge-pill badge-primary" id="tag-{{ tagname }}">
+          {{ tagname }}
+          <span class="sr-only">list of posts tagged under the tag {{ tagname }}</span>
+        </span><br>
+
+        {% for post in posts %}
+            {% if post.tags contains t %}
+              <a href="{{ post.url }}" title="read the post {{ post.pretty_title }} by suyash singh bitti">{{ post.pretty_title }} - {{ post.date | date: "%B %-d, %Y"  }}</a>
+              <br>
+            {% endif %}
+        {% endfor %}
+        <br>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+  <!-- ./Page Container -->
+  {% include footer.html %}
+  
+  <!-- Optional JavaScript -->
+  <!-- Scroll to top link -->
+  <a id="back-to-top" href="#" class="btn btn-outline-primary btn-lg back-to-top" role="button"><svg class="svg-icon"><use xlink:href="#icon-angle-double-up"></use></svg></span></a>
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="{{ "/assets/js/scroll-to-top.js" |  relative_url }}"></script>
+</body>
+</html>
